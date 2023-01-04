@@ -1,0 +1,117 @@
+#paragraphh{
+    color: chartreuse;
+}
+.paragraph{
+    color: darkorange;
+}
+.h2-tag{
+    color: orange;
+    font-size: 25px;
+}
+#h5-tag{
+    font-family: 'Rubik Bubbles', cursive;
+    color: darkred;
+    font-size: 20px;
+}
+
+.task-two p{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: darkgreen;
+    border-radius: 10%;
+}
+
+.main-border{
+    display: block;
+    height: 280px;
+    width: 500px;
+    border: 1px dashed black;
+}
+
+.mini-border{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: 1px dashed green;
+    position: relative;
+    bottom: 284px;
+    left: 15px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 5%;
+}
+.task-one-{
+   padding-left: 620px;
+}
+#main-title{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.list{
+    color: red;
+}
+.list i{
+    color: blue;
+}
+.title{
+    color: green;
+    display: block;
+}
+.parag{
+    width: 600px;
+}
+p strong{
+   font-weight: bold;
+   font-size: 22px;
+   color: red;
+}
+p i{
+    font-weight: bold;
+    color: blue;
+    font-size: 15px;
+}
+.list-two{
+    font-style: italic;
+    color: peru;
+}
+.list-two strong{
+   font-weight: bold;
+   font-size: 20px;
+   color: red;
+}
+.list-two li{
+    width: 500px;
+}
+
+.task-two-{
+  background-image: url(https://s9.travelask.ru/uploads/post/000/001/883/main_image/full-33691b89dd24273831cbf3774b29113e.jpg);
+  background-size: 100%;
+  
+}
+.task-two-block{
+    border: 1px solid red;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width: max-content;
+    margin: 0 auto;
+}
+.h2-title{
+    color: chocolate;
+}
+.text-red{
+    width: 900px;
+    color: red;
+}
+.text-green{
+    width: 900px;
+    color: green;
+}
+span{
+    color: blue;
+    text-decoration: underline;
+}
