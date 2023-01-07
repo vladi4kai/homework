@@ -1,0 +1,268 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.task-one{
+    display: block;
+    width: 300px;
+    height: 300px;
+    background: url(../img/picmonkey-staff-bio.png) no-repeat;
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+
+.main-layer{
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.medium-layer{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+    bottom: 288px ;
+    z-index: 2;
+}
+.mini-layer{
+    display: block;
+    width: 50px;
+    z-index: 3;
+    height: 50px;
+    background-color: black;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 210px;
+    bottom: 338px;
+}
+.task-three{
+    margin-bottom: 50px;
+}
+.navigation{
+    background-color: rgba(12, 11, 11, 0.849);
+    display: block;
+    height: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    color: #fff;
+}
+.home{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: green;
+    width: 60px;
+    margin-right: 15px;
+    height: 40px;
+}
+
+.news{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 15px;
+
+}
+
+.contact{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+
+.about{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+.content{
+    width: 800px;
+    height: 265px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+}
+.nav{
+    background-color: rgb(53, 53, 53);
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    line-height: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.golovna{
+    display: inline-block;
+    margin-left: 15px;
+}
+.novunu{
+    display: inline-block;
+    margin-left: 15px;
+}
+.kontakt{
+    display: inline-block;
+    margin-left: 15px;
+}
+.about{
+    display: inline-block;
+    margin-left: 15px;
+}
+.dobratus{
+    display: inline-block;
+}
+.text{
+    padding: 0 15px;
+}
+.task-five{
+    padding: 20px;
+}
+.first{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+}
+.second{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:blue;
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+}
+.third{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:chartreuse;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+.variant-1{
+    display: inline-block;
+    margin-left: 50px;
+}
+.variant-2{
+    display: inline-block;
+    margin-left: 50px;
+}
+.variant-3{
+    display: inline-block;
+    margin-left: 50px;
+}
+.variant-2 .second{
+    z-index: 3;
+}
+
+.variant-3 > .first{
+    z-index: 5;
+}
+.variant-3 > .second{
+    z-index: 2;
+}
+
+.wrapper{
+    display: block;
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+}
+.header{
+    min-height: 200px;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    display: block;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+}
+.logo img{
+    display: block;
+    width: 200px;
+    height: 175px;
+}
+.site-name{
+    top: 10px;
+    left: 200px;
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+}
+.site-menu{
+    display: block;
+    top: 40px;
+    left: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.site-menu li{
+    float: left;
+    list-style-type: none;
+}
+.site-menu a{
+    color: blue;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 0px 10px;
+}
+.site-menu .active{
+    color: red;
+    text-decoration: underline;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.left-column{
+    display: block;
+    float: left;
+    width: 200px;
+}
+.right-column{
+    display: block;
+    float: right;
+    width: 200px;
+}
+.site-main{
+    display: block;
+    border: 1px solid black;
+    margin: 0px 200px;
+    padding: 0px 20px;
+}
+.site-main h1{
+    margin: 0;
+    padding: 0;
+}
+.site-main p{
+    margin: 10px 0px;
+    text-align: justify;
+}
+footer{
+    display: block;
+    border: 1px solid black;
+    padding-top: 180px;
+    text-align: center;
+    font-weight: bold;
+}
