@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper-3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#header {
+    background: #008040;
+    padding: 5px;
+    color: white;
+}
+.block {
+    margin-bottom: 30px;
+}
+.min {
+    min-width: 840px;
+}
+.center {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#header h1 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#header p {
+    font-size: 21px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+#price ol {
+    color: red;
+    font-weight: bold;
+}
+#price li span {
+    color: black;
+    font-weight: normal;
+}
+#price li{
+    margin-top: 15px;
+}
+p{
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+li {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#contacts {
+    background-color: #C60304;
+    color: white;
+    padding: 10px;
+}
+#contacts p {
+    text-align: center;
+}
+#clients {
+    background: #FF8040;
+    padding: 20px;
+    color: white;
+}
+#clients img {
+    outline: 1px solid black;
+    float: left;
+    margin-right: 0.6666%;
+    width: 24.5%;
+}
+img {
+    overflow: clip;
+    display: block;
+    width: 205px;
+    height: 102px;
+}
+.clearfix {
+    clear: both;
+}
+#clients p {
+    margin-bottom: 0.6666%;
+}
+#footer {
+    background: #912F00;
+    padding: 200px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    width: ;
+}
+#clients img.last {
+    margin-right: 0px;
+}
