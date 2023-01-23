@@ -536,225 +536,9 @@ h1{
     color: #1476FF;
 }
 
-@media screen and (max-width:450px) {
-    .wrapper{
-        background: #F5F5F5;
-        width: 450px;
-    }
-    .main-content{
-        width: 1440px;
-        background: #F5F5F5;;
-    }
-    .header{
-        width: 1440px;
-    }
-    .logo-item{
-        width: 183px;
-        height: 61px;
-        margin-left: 20px;
-        margin-right: 0px;
-    }
-    .nav{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .link{
-        font-size: 28px;
-    }
-    .header-element{
-        width: 38px;
-        height: 38px;
-        border-radius: 18px;
-    }
-    .header-element_style{
-        position: relative;
-        top: 0px;
-        left: 11px;
-        font-size: 24px;
-        line-height: 38px;
-    }
-    .white_button_text-style{
-        font-size: 25px;
-    }
-    .blue_button_text-style{
-        font-size: 25px;
-    }
-    .page-one{
-        padding-top: 100px;
-        width: 1440px;
-    }
-    .left-column{
-        margin-left: 60px;
-    }
-    h1{
-        width: 550px;
-        font-size: 60px;
-        margin-bottom: 40px;
-    }
-    .description{
-        width: 496px;
-        height: 32px;
-        font-size: 24px;
-        line-height: 32px;
-        color: #6F7182;
-        margin-bottom: 120px;
-    }
-    .img_plus-styles{
-        position: absolute;
-        left: 185px;
-        bottom: 360px;
-        font-size: 74px;
-    }
-    .screens_styles{
-        position: absolute;
-        left: 183px;
-        top: 400px;
-        font-size: 27px;
-    }
-    .build-title{
-        margin-left: 350px;
-        margin-top: 300px;
-        background:#F5F5F5;
-        width: 800px;
-        height: 96px;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 48px;
-        text-align: center;
-        color: #0B0E2C;
-    }
-    .page-two{
-        background:#F5F5F5;
-        width: 1440px;
-    }
-    .subtitle-blocks{
-        margin-top: 30px;
-    }
-    .layout-text-content{
-        margin-top: 50px;
-    }
-    .layout_title{
-        font-size: 30px;
-        line-height: 18px;
-        letter-spacing: 0.96px;
-        text-transform: uppercase;
-        color: #1476FF;
-        margin-bottom: 15px;
-    }
-    .layout_subtitle{
-        width: 384px;
-        height: 96px;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 48px;
-        color: #0B0E2C;
-        margin-bottom: 55px;
-    }
-    .layout_description{
-        width: 367px;
-        height: 78px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 26px;
-        color: #6F7182;
-        margin-bottom: 65px;
-    }
-    .figma-text-content{
-        margin-top: 25px;
-        margin-left: 70px;
-    }
-    .layout-figma-subtitle{
-        width: 410px;
-        height: 96px;
-        margin-bottom: 70px;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 48px;
-        color: #0B0E2C;
-    }
-    .figma-description{
-        width: 450px;
-        height: 26px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        color: #6F7182;
-        margin-bottom: 70px;
-    }
-    .layout-figma-img{
-        bottom: 391px;
-    }
-    .page-three{
-        width: 1440px;
-    }
-    .page-three_title{
-        font-size: 52px;
-        width: 490px;
-        margin-top: 100px;
-        margin-left: 480px;
-    }
-    .page-three_subtitle{
-        width: 720px;
-        height: 64px;
-        font-size: 26px;
-        margin-left: 370px;
-    }
-    .first_group{
-        margin-left: 370px;
-     }
-     .second_group{
-         margin-left: 300px;
-     }
-     .dashboard-title{
-        margin-top: 65px;
-        margin-bottom: 35px;
-        font-size: 42px;
-    }
-    .img_desc{
-        font-size: 30px;
-    }
-    .footer{
-        background: #F5F5F5;
-        width: 1440px;
-    }
-    .footer_img{
-        position: relative;
-        left: 133px;
-        width: 628px;
-        height: 394px;
-    }
-    .footer-container{
-        margin-top: 50px;
-        margin-left: 70px;
-    }
-    .footer_title{
-        width: 390px;
-        margin-top: 45px;
-        margin-left: 84px;
-        font-size: 42px;
-    }
-    .footer_description{
-        margin-top: 70px;
-        margin-bottom: 90px;
-        width: 430px;
-        font-size: 18px;
-    }
-    .footer-bottom{
-        margin-top: 100px;
-        width: 100%;
-        height: 81px;
-        background: #F7F9FC;
-        text-align: center;
-    }
-    .footer-bottom_text{
-        font-size: 24px;
-    }
-}
-/*--------------------------*/
 
-@media screen and (max-width:770px) {
+
+@media screen and (max-width:450px) {
     .wrapper{
         background: #F5F5F5;
         width: 640px;
@@ -787,11 +571,9 @@ h1{
         border-radius: 18px;
     }
     .header-element_style{
-        position: relative;
-        top: 0px;
-        left: 11px;
+        position: absolute;
         font-size: 24px;
-        line-height: 38px;
+        line-height: 36px;
     }
     .white_button_text-style{
         font-size: 25px;
@@ -970,7 +752,7 @@ h1{
         font-size: 24px;
     }
 }
-/*-------------------------------------*/
+
 
 @media screen and (max-width:770px) {
     .wrapper{
@@ -1006,7 +788,7 @@ h1{
     }
     .header-element_style{
         position: relative;
-        top: -2px;
+        top: -6px;
         left: 9px;
         font-size: 20px;
         line-height: 38px;
@@ -1188,7 +970,7 @@ h1{
         font-size: 24px;
     }
 }
-/*--------------------------------------*/
+
 
 
 @media screen and (max-width:1024px) {
@@ -1405,12 +1187,12 @@ h1{
         font-size: 20px;
     }
 }
-/*----------------------------------------*/
+
 
 @media screen and (max-width:1280px) {
     .wrapper{
         background: #F5F5F5;
-        width: 1024px;
+        width: 1280px;
     }
     .main-content{
         width: 1440px;
@@ -1621,9 +1403,15 @@ h1{
         font-size: 20px;
     }
 }
-/*----------------------------------------*/
 
-@media screen and (max-width:1920px) {
+
+@media screen and (min-width:1920px) {
+    .wrapper{
+        width: 1920px;
+    }
+    .main-content{
+        width: 1920px;
+    }
     .logo-item{
         margin-left: 20px;
         margin-right: 1000px;
@@ -1634,7 +1422,6 @@ h1{
     .right-column{
         margin-left: 480px;
     }
-
     .description{
         width: 496px;
         height: 32px;
