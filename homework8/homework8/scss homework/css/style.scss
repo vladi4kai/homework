@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@mixin text-style {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+    .header{
+        max-width: 1440px;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .header_left_text{
+        @include text-style;
+        position: absolute;
+        top: 90px;
+        left: 150px;
+    }
+    .header_right_text{
+        @include text-style;
+        position: absolute;
+        top: 75px;
+        right: 200px;
+    }
+    .logo{
+        width: 35px;
+        height: 47px;
+        padding-right: 35px;
+    }
+    .sublogo{
+        width: 58px;
+        height: 58px;
+        position: absolute;
+        z-index: 1;
+        top: 70px;
+        right: 100px;
+    }
+    h1{
+        margin-left: 15px;
+        width: 897px;
+        height: 312px;
+        font-weight: bold;
+        font-size: 130px;
+        line-height: 156px;
+        margin-bottom: 20px;
+    }
+    .logo-text{
+        font-size: 16px;
+        position: absolute;
+        z-index: 2;
+        right: 122px;
+        top: 70px;
+    }
+    .background_header{
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        width: 1440px;
+        height: 675px;
+    }
+    .mark{
+        position: absolute;
+        bottom: 230px;
+        z-index: 5;
+        width: 208px;
+        height: 77px;
+        background: #F8C749;
+        border-radius: 92px;
+    } .mark_text {
+        position: relative;
+        left: 25px;
+        top: 5px;
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    .right_img{
+        position: absolute;
+        right: 0;
+        top: 125px;
+        z-index: 5;
+        width: 396px;
+        height: 1020px;
+    }
+    .text-column{
+        position: absolute;
+        right: 100px;
+        top: 430px;
+        z-index: 6;
+        .column_styles{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+    }
+}
