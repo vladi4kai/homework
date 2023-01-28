@@ -110,4 +110,364 @@ h1 {
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 30px;
+}
+.wrapper .main .images_booking .img_booking_text {
+  width: 93px;
+  height: 160px;
+  position: relative;
+  z-index: 12;
+  left: 1145px;
+  bottom: 1240px;
+}
+.wrapper .main .images_booking .img_booking_text .text_styles {
+  font-size: 41px;
+  line-height: 80px;
+}
+.wrapper .main .images_booking .main_booking {
+  width: 600px;
+  height: 813px;
+  position: relative;
+  z-index: 10;
+  left: 840px;
+  bottom: 535px;
+}
+.wrapper .main .images_booking .direction_img {
+  width: 222px;
+  height: 198px;
+  position: relative;
+  z-index: 13;
+  bottom: 1050px;
+  right: 350px;
+}
+.wrapper .main .images_booking .layer_img {
+  width: 600px;
+  height: 739px;
+  position: relative;
+  z-index: 12;
+  left: 235px;
+  bottom: 570px;
+}
+.wrapper .main .booking {
+  max-width: 1000px;
+  padding-top: 180px;
+  padding-left: 80px;
+}
+.wrapper .main .booking .button {
+  width: 414px;
+  height: 110px;
+  background: #F8C749;
+  border: 1px solid #F8C749;
+  border-radius: 42px;
+  position: relative;
+  bottom: 190px;
+}
+.wrapper .main .booking .button .shape {
+  width: 64px;
+  height: 16px;
+  position: relative;
+  bottom: 55px;
+  left: 300px;
+}
+.wrapper .main .booking .button .button_text {
+  font-size: 39px;
+  line-height: 50px;
+  height: 50px;
+  margin: 0;
+  position: relative;
+  left: 35px;
+}
+.wrapper .main .booking .booking_title {
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 76px;
+  margin: 0;
+}
+.wrapper .main .booking .booking_subtitle {
+  font-weight: 400;
+  font-size: 153px;
+  line-height: 153px;
+  margin-top: 0;
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 75px;
+}
+.wrapper .main .booking .workstation {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+}
+.wrapper .main .booking .price {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 24px;
+  position: relative;
+  bottom: 95px;
+  left: 220px;
+}
+.wrapper .main .booking .element {
+  font-size: 30px;
+  line-height: 24px;
+  position: relative;
+  bottom: 205px;
+  left: 350px;
+}
+.wrapper .main .booking .price_element {
+  font-size: 30px;
+  line-height: 24px;
+  position: relative;
+  bottom: 125px;
+  width: 128px;
+  left: 348px;
+}
+.wrapper .main .booking .booking_desc {
+  width: 475px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  bottom: 200px;
+}
+.wrapper .main .img_section .img_section_text {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 830px;
+}
+.wrapper .main .img_section .img_section_text:nth-child(1) {
+  width: 696px;
+  height: 220px;
+  margin-bottom: 100px;
+}
+.wrapper .main .img_section .img_section_text:nth-child(2) {
+  width: 677px;
+  height: 165px;
+}
+.wrapper .main .img_section .section_img_one {
+  width: 1440px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.wrapper .main .img_section .section_img_two {
+  width: 1440px;
+  height: 960px;
+  position: relative;
+  bottom: 10px;
+}
+.wrapper .main .img-block {
+  margin-top: 250px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.wrapper .main .img-block img {
+  margin-right: 90px;
+}
+.wrapper .main .img-block img:nth-child(1) {
+  width: 96px;
+  height: 41px;
+}
+.wrapper .main .img-block img:nth-child(2) {
+  width: 106px;
+  height: 51px;
+}
+.wrapper .main .img-block img:nth-child(3) {
+  width: 88px;
+  height: 88px;
+}
+.wrapper .main .img-block img:nth-child(4) {
+  width: 104px;
+  height: 47px;
+}
+.wrapper .main .img-block img:nth-child(5) {
+  width: 106px;
+  height: 106px;
+}
+.wrapper .main .img-block img:nth-child(6) {
+  width: 106px;
+  height: 23px;
+}
+.wrapper .main .img-block img:nth-child(7) {
+  width: 99px;
+  height: 29px;
+}
+.wrapper .main .text-content {
+  margin-top: 750px;
+  margin-left: 700px;
+}
+.wrapper .main .text-content .second_section_style {
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 100px;
+}
+.wrapper .main .text-content .title_first_section {
+  margin-bottom: 1px;
+  width: 615px;
+  height: 300px;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 100px;
+}
+.wrapper .main .text-content .title_second_section {
+  border: 2px solid #000000;
+  border-radius: 67px;
+  width: 322px;
+  height: 104px;
+  display: inline-block;
+  position: relative;
+  right: 20px;
+}
+.wrapper .main .text-content .title_second_section .second_section_style {
+  position: relative;
+  left: 28px;
+}
+.wrapper .main .text-content .subtext {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+}
+.wrapper .main .text-content .subtext p {
+  margin: 0;
+  padding: 0;
+}
+.wrapper .main .text-content .subtext p:nth-child(1) {
+  width: 620px;
+  height: 120px;
+}
+.wrapper .main .text-content .subtext p:nth-child(2) {
+  width: 472px;
+  height: 120px;
+}
+.wrapper .main .text-content .subtext p:nth-child(3) {
+  width: 620px;
+  height: 60px;
+}
+.wrapper .main .text-content .tags {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 500px;
+}
+.wrapper .main .text-content .tags .tag_text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 55px;
+  padding: 16px 33px;
+}
+.wrapper .main .text-content .tags .tag {
+  border: 1px solid #000000;
+  border-radius: 34px;
+  height: 55px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.wrapper .footer {
+  max-height: 1px;
+  max-width: 1100px;
+  padding-left: 80px;
+  position: relative;
+  bottom: 620px;
+}
+.wrapper .footer .footer_bottom .footer_bottom_text {
+  position: relative;
+  bottom: 80px;
+  font-weight: 400;
+  display: inline;
+  font-size: 14px;
+  line-height: 17px;
+}
+.wrapper .footer .footer_bottom .footer_bottom_text:nth-child(1) {
+  margin-right: 130px;
+  width: 131px;
+  height: 24px;
+}
+.wrapper .footer .footer_bottom .footer_bottom_text:nth-child(2) {
+  margin-right: 530px;
+}
+.wrapper .footer .footer_bottom .footer_bottom_text:nth-child(3) {
+  display: inline;
+}
+.wrapper .footer .footer_img_section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 210px;
+  left: 250px;
+}
+.wrapper .footer .footer_img_section .footer_img_line {
+  height: 106px;
+}
+.wrapper .footer .footer_img_section .footer_img_line:nth-child(1) {
+  width: 106px;
+  margin-right: 20px;
+}
+.wrapper .footer .footer_img_section .footer_img_line:nth-child(2) {
+  width: 128px;
+  margin-right: 35px;
+}
+.wrapper .footer .footer_img_section .footer_img_line:nth-child(3) {
+  width: 116px;
+  margin-right: 50px;
+}
+.wrapper .footer .footer_img_section .footer_img_line:nth-child(4) {
+  width: 86px;
+  margin-right: 50px;
+}
+.wrapper .footer .footer_img_section .footer_img_line:nth-child(5) {
+  width: 136px;
+}
+.wrapper .footer .middle-column {
+  position: relative;
+  left: 250px;
+  bottom: 210px;
+}
+.wrapper .footer .middle-column .footer_img {
+  width: 150px;
+  height: 64px;
+}
+.wrapper .footer .middle-column .footer_sublogo_text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+}
+.wrapper .footer .middle-column .footer_bottom_text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  margin-right: 395px;
+  display: inline;
+}
+.wrapper .footer .middle-column .footer_desc {
+  margin-top: 15px;
+  width: 498px;
+  height: 168px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.wrapper .footer .left-column .footer_logo {
+  width: 34px;
+  height: 45px;
+}
+.wrapper .footer .left-column .footer_logo_text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 31px;
+}
+.wrapper .footer .left-column .footer_logo_text:nth-child(4) {
+  margin-bottom: 25px;
+}
+.wrapper .footer .left-column .footer_sublogo_text {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
